@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="bundle.js"></script>
+    <script src="src/functionsDOM.js"></script>
+    <title>Que Filme Passou?</title>
+</head>
+
+<body>
+    <header>
+        <h1>Que Filme Passou Na Sessão da Tarde?</h1>
+    </header>
+
+    <button class="return" onclick="goBack()">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M38 22H15.66L25.42 12.24C26.2 11.46 26.2 10.18 25.42 9.4C24.64 8.62 23.38 8.62 22.6 9.4L9.41996 22.58C8.63996 23.36 8.63996 24.62 9.41996 25.4L22.6 38.58C23.38 39.36 24.64 39.36 25.42 38.58C26.2 37.8 26.2 36.54 25.42 35.76L15.66 26H38C39.1 26 40 25.1 40 24C40 22.9 39.1 22 38 22Z"
+                />
+        </svg>
+    </button>
+
+        <div class="container">
+            <section id="inputDate">
+                <label for="date">Insira uma Data:</label>
+                <input type="date" name="date" id="date">
+                <button onclick="displayMovie()">Prosseguir</button>
+            </section>
+        </div>
+        
+
+        <section id="movieInfo">
+            <div class="center">
+                <p class="subtitle">No dia dd/mm/aaaaa o filme exibido foi...</p>
+                <h2>
+                    Homem-Aranha (2002)
+                </h2>
+            </div>
+               
+            
+
+            <div class="center sinopse">
+                <img src="images 1.png" alt="">
+
+                <p>
+                    Depois de ser picado por uma aranha geneticamente modificada em uma demonstração científica, 
+                    o jovem nerd Peter Parker ganha superpoderes. Inicialmente, ele pretende usá-los para para 
+                    ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. 
+                    Porém, ao presenciar o assassinando de seu tio Ben e sentir-se culpado, Peter decide não mais 
+                    usar seus poderes para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro 
+                    grande desafio o psicótico Duende Verde.
+                </p>
+            </div>
+        </section>
+
+</body>
+
+</html>

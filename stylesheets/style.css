@@ -1,0 +1,151 @@
+body {
+    background-color: #F1F1F1;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h1, h2 {
+    font-family: 'Arvo', serif;
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+}
+
+header, section {
+    background-color: #fff;
+}
+
+section {
+    font-family: 'Lato', sans-serif;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 80px);
+}
+
+#inputDate {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#inputDate label {
+    margin-bottom: .75em;
+    font-size: 1.5em;
+}
+
+#movieInfo {
+    display: none;
+    width: 70%;
+    margin: 80px auto;
+    padding: 10% 5%;
+}
+
+.center {
+    margin: auto;
+}
+
+.subtitle {
+    font-size: 1em;
+}
+
+#movieInfo div, #movieInfo span {
+    width: 90%;
+}
+
+#movieInfo img {
+    width: 100%;
+}
+
+.sinopse p {
+    text-align: justify;
+    font-size: 1em;
+    line-height: normal;
+}
+
+h2 {
+    font-size: 1.125em;
+}
+
+.sinopse * {
+    margin: 1em auto;
+}
+
+input[type="date"], button {
+    font-family: 'Lato', sans-serif;
+    outline: none;
+}
+
+section button {
+    width: 40%;
+    margin-top: 1em;
+    background-color: #d0cece;
+    color: #000;
+    font-weight: 700;
+    border: none;
+    padding: 8px 0;
+}
+
+section button:active {
+    background-color: #fff;
+    border: 1px solid currentColor;
+    padding: 7px 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+.return {
+    display: none;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    background-repeat: none;
+    position: absolute;
+    padding: 0;
+    margin: .8em;
+    height: 48px;
+}
+
+.return svg {
+    fill: #000;
+}
+
+.return svg:active {
+    fill: #494949;
+}
+
+@media (min-width: 1000px) {
+    #inputDate{
+        width: 30%;
+    }
+    #movieInfo {
+        padding: 2em 0;
+    }
+    .sinopse {
+        margin-top: 2em;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    #movieInfo img{
+        margin: 0;
+    }
+    .sinopse p {
+        margin: 0 0 0 10%;
+        font-size: 1.45em;
+    }
+    .subtitle, h2 {
+        font-size: 2em;
+        font-family: 'Arvo', serif;;
+    }
+}

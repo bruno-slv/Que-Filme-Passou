@@ -1,0 +1,14 @@
+{
+    "ego.power-tools": {
+        "buttons": [
+            {
+                "text": "Mount bundle.js",
+                "tooltip": "Runs browserify src/index.js > bundle.js",
+                "action": {
+                    "type": "shell",
+                    "command": "browserify src/index.js > bundle.js"
+                }
+            }
+        ]
+    }
+}
