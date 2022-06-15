@@ -2,7 +2,7 @@
 
 ## :star: Iniciando
 
-1. Acesse o [site](https://bruno-slv.github.io/Que-FIlme-Passou/)
+1. Acesse o [site](https://bruno-slv.github.io/Que-Filme-Passou/)
 2. Insira uma data no campo de entrada
 3. Veja o filme que a Sessão da Tarde exibiu naquele dia
 
